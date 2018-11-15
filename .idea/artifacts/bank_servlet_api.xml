@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bank-servlet-api">
+    <output-path>$PROJECT_DIR$/out/artifacts/bank_servlet_api</output-path>
+    <root id="archive" name="bank-servlet-api.war" />
+  </artifact>
+</component>

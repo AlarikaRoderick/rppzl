@@ -1,0 +1,9 @@
+/Users/Helen_Roderick/IdeaProjects/bank-servlet-api/src/main/java/dao/ClientDAO.java
+/Users/Helen_Roderick/IdeaProjects/bank-servlet-api/src/main/java/servlet/ClientPageServlet.java
+/Users/Helen_Roderick/IdeaProjects/bank-servlet-api/src/main/java/servlet/EnterClientServlet.java
+/Users/Helen_Roderick/IdeaProjects/bank-servlet-api/src/main/java/servlet/AllClientsPageServlet.java
+/Users/Helen_Roderick/IdeaProjects/bank-servlet-api/src/main/java/dao/Const.java
+/Users/Helen_Roderick/IdeaProjects/bank-servlet-api/src/main/java/dao/JdbcClientDAO.java
+/Users/Helen_Roderick/IdeaProjects/bank-servlet-api/src/main/java/dao/Config.java
+/Users/Helen_Roderick/IdeaProjects/bank-servlet-api/src/main/java/service/ClientService.java
+/Users/Helen_Roderick/IdeaProjects/bank-servlet-api/src/main/java/model/Client.java
