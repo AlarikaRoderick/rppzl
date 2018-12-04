@@ -10,4 +10,5 @@ public interface DepositDAO {
     void closeBankDay();
     List<Deposit> getAllDeposits();
     void updateDeposit(Deposit deposit);
+    void deleteDeposit(Deposit deposit);
 }

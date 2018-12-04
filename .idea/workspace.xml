@@ -7,41 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17775276-9895-47dd-bbff-a616b5552d70" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/deposit/DepositDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/deposit/JdbcDepositDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Deposit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/DepositService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/AllDepositsPageServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/DepositPageServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/pages/allDepositsPage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/pages/depositPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ace4b077-f6d4-486a-a81d-3f6aa7b9eea0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bank_servlet_api_Web_exploded/WEB-INF/classes/dao/ClientDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bank_servlet_api_Web_exploded/WEB-INF/classes/dao/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bank_servlet_api_Web_exploded/WEB-INF/classes/dao/Const.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bank_servlet_api_Web_exploded/WEB-INF/classes/dao/JdbcClientDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bank_servlet_api_Web_exploded/WEB-INF/classes/model/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bank_servlet_api_Web_exploded/WEB-INF/classes/model/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bank_servlet_api_Web_exploded/WEB-INF/classes/service/ClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bank_servlet_api_Web_exploded/WEB-INF/classes/service/ClientService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bank_servlet_api_Web_exploded/WEB-INF/classes/servlet/ClientPageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bank_servlet_api_Web_exploded/WEB-INF/classes/servlet/ClientPageServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bank_servlet_api_Web_exploded/WEB-INF/classes/servlet/EnterClientServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bank_servlet_api_Web_exploded/WEB-INF/classes/servlet/EnterClientServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bank_servlet_api_Web_exploded/WEB-INF/pages/clientPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bank_servlet_api_Web_exploded/WEB-INF/pages/clientPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bank_servlet_api_Web_exploded/WEB-INF/pages/enterClient.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bank_servlet_api_Web_exploded/WEB-INF/pages/enterClient.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bank_servlet_api_Web_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bank_servlet_api_Web_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ClientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/client/ClientDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/Const.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/JdbcClientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/client/JdbcClientDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/ClientPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/ClientPageServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/ClientDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/Const.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/JdbcClientDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/ClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/ClientService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/ClientPageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/ClientPageServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/pages/clientPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/clientPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/pages/enterClient.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/enterClient.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/deposit/DepositDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/deposit/DepositDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/deposit/JdbcDepositDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/deposit/JdbcDepositDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/pages/allDepositsPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/allDepositsPage.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -79,6 +48,13 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="bank: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bank@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="bank: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="deposit_bill: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -87,8 +63,8 @@
       <file leaf-file-name="DepositDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dao/deposit/DepositDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+            <state relative-caret-position="180">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AllDepositsPageServlet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AllDepositsPageServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/servlet/AllDepositsPageServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="254">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,11 +87,41 @@
       <file leaf-file-name="JdbcDepositDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dao/deposit/JdbcDepositDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+            <state relative-caret-position="320">
+              <caret line="110" column="44" lean-forward="true" selection-start-line="110" selection-start-column="44" selection-end-line="110" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="allDepositsPage.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/allDepositsPage.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JdbcClientDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/client/JdbcClientDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1497">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="enterClient.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/enterClient.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-484">
+              <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -172,11 +178,11 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pages/enterClient.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pages/allClientsPage.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pages/allDepositsPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/service/DepositService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/AllDepositsPageServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/deposit/DepositDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/deposit/JdbcDepositDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/servlet/AllDepositsPageServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pages/allDepositsPage.jsp" />
       </list>
     </option>
   </component>
@@ -224,10 +230,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="53" />
-    <option name="y" value="-4" />
-    <option name="width" value="1867" />
-    <option name="height" value="1084" />
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -583,12 +588,20 @@
       <workItem from="1543323054653" duration="153000" />
       <workItem from="1543473921413" duration="1062000" />
       <workItem from="1543912818130" duration="6294000" />
-      <workItem from="1543931829262" duration="5146000" />
+      <workItem from="1543931829262" duration="8915000" />
     </task>
+    <task id="LOCAL-00001" summary="добавлено закрытие банковского дня">
+      <created>1543937839747</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543937839747</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86994000" />
+    <option name="totallyTimeSpent" value="90763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -634,6 +647,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="добавлено закрытие банковского дня" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлено закрытие банковского дня" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -801,16 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/client/JdbcClientDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/client/ClientDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -866,13 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/enterClient.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2580">
@@ -901,13 +901,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/allDepositsPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="49" column="75" selection-start-line="49" selection-start-column="75" selection-end-line="49" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/DepositService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -924,18 +917,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/deposit/DepositDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/deposit/JdbcDepositDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        <state relative-caret-position="180">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -944,11 +927,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlet/AllDepositsPageServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="254">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/enterClient.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-484">
+          <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/client/JdbcClientDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1497">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/deposit/JdbcDepositDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="110" column="44" lean-forward="true" selection-start-line="110" selection-start-column="44" selection-end-line="110" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/allDepositsPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
         </state>
       </provider>
     </entry>

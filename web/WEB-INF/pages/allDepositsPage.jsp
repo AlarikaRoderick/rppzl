@@ -28,6 +28,7 @@
             <th>Сумма вклада</th>
             <th>Процент</th>
             <th>Текущий процент</th>
+            <th>Действие</th>
             </thead>
             <tbody>
             <jsp:useBean id="deposits" scope="request" type="java.util.List"/>
@@ -43,12 +44,16 @@
                     <td>${deposit.depositSum}</td>
                     <td>${deposit.depositPercent}</td>
                     <td>${deposit.currentPercent}</td>
+                    <td><c:if test="${deposit.depositType.toString() eq 'otz'}">
+                        <button>Закрыть счет</button>
+                    </c:if></td>
                 </tr>
             </c:forEach>
             </tbody>
         </table>
         <button type="submit" name="closeBankDay">Завершить банковский день</button>
     </form>
+
 </div>
 тут будут депозиты
 </body>

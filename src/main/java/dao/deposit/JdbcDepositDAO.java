@@ -21,11 +21,12 @@ public class JdbcDepositDAO extends Config implements DepositDAO{
     }
     @Override
     public void saveDeposit(Deposit deposit) {
+        PreparedStatement preparedStatement;
         String insert = "INSERT INTO deposit(id_client_deposit, deposit_type, contract_number, " +
                 "currency_type, date_begin, date_end, contract_term, deposit_sum, deposit_percent, current_percent) " +
                 "VALUES (?,?,?,?,?,?,?,?,?,?)";
         try {
-            PreparedStatement preparedStatement = getDbConnection().prepareStatement(insert);
+            preparedStatement = getDbConnection().prepareStatement(insert);
             preparedStatement.setInt(1, deposit.getIdClientDeposit());
             preparedStatement.setString(2, deposit.getDepositType());
             preparedStatement.setInt(3, deposit.getContactNumber());
@@ -40,11 +41,38 @@ public class JdbcDepositDAO extends Config implements DepositDAO{
         } catch (SQLException | ClassNotFoundException e) {
             e.printStackTrace();
         }
+        String selectIdDeposit = "select id_deposit from deposit where contract_number=?";
+        ResultSet resultSet;
+        int id = 0;
+        try{
+            preparedStatement = getDbConnection().prepareStatement(selectIdDeposit);
+            preparedStatement.setInt(1, deposit.getContactNumber());
+            resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()){
+                id = resultSet.getInt(1);
+            }
+        } catch (SQLException | ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        String insertBill = "insert into deposit_bill(id_deposit_deposit_bill, current_deposit_sum) values (?,?)";
+        try {
+            preparedStatement = getDbConnection().prepareStatement(insertBill);
+            preparedStatement.setInt(1, id);
+            preparedStatement.setFloat(2, 0);
+            preparedStatement.executeUpdate();
+
+        } catch (SQLException | ClassNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
     public void closeDeposit(Deposit deposit) {
-
+        int depositSum = deposit.getDepositSum();
+        int currentPercent = deposit.getCurrentPercent();
+        float totalSum = depositSum + depositSum*currentPercent/100;
+        System.out.println(totalSum);
+        deleteDeposit(deposit);
     }
 
     @Override
@@ -56,6 +84,7 @@ public class JdbcDepositDAO extends Config implements DepositDAO{
                 deposit.setCurrentPercent(deposit.getCurrentPercent() + deposit.getDepositPercent());
                 updateDeposit(deposit);
             }
+            else closeDeposit(deposit);
         }
     }
 
@@ -79,9 +108,10 @@ public class JdbcDepositDAO extends Config implements DepositDAO{
 
     @Override
     public void updateDeposit(Deposit deposit) {
+        PreparedStatement preparedStatement;
         String update = "update deposit set contract_term=?, current_percent=? where id_deposit=?";
         try {
-            PreparedStatement preparedStatement = getDbConnection().prepareStatement(update);
+            preparedStatement = getDbConnection().prepareStatement(update);
             preparedStatement.setInt(1, deposit.getContractTerm());
             preparedStatement.setInt(2, deposit.getCurrentPercent());
             preparedStatement.setInt(3, deposit.getIdDeposit());
@@ -89,6 +119,28 @@ public class JdbcDepositDAO extends Config implements DepositDAO{
         } catch (SQLException | ClassNotFoundException e) {
             e.printStackTrace();
         }
+        String updateBill = "update deposit_bill set current_deposit_sum=? where id_deposit_deposit_bill=?";
+        try {
+            preparedStatement = getDbConnection().prepareStatement(updateBill);
+            preparedStatement.setFloat(1, deposit.getDepositSum()*deposit.getCurrentPercent()/100);
+            preparedStatement.setInt(2, deposit.getIdDeposit());
+            preparedStatement.executeUpdate();
+        } catch (SQLException | ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void deleteDeposit(Deposit deposit) {
+        String delete = "delete from deposit where id_deposit=?";
+        try {
+            PreparedStatement preparedStatement = getDbConnection().prepareStatement(delete);
+            preparedStatement.setInt(1, deposit.getIdDeposit());
+            preparedStatement.executeUpdate();
+        } catch (SQLException | ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
     }
 
     private Deposit getDepositFromDB(ResultSet resultSet) throws SQLException {
