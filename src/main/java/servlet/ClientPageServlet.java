@@ -1,6 +1,5 @@
 package servlet;
 
-import dao.JdbcClientDAO;
 import model.Client;
 import service.ClientService;
 

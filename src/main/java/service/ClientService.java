@@ -1,9 +1,8 @@
 package service;
 
-import dao.JdbcClientDAO;
+import dao.client.JdbcClientDAO;
 import model.Client;
 
-import java.sql.ResultSet;
 import java.util.List;
 
 public class ClientService {

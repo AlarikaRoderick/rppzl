@@ -39,13 +39,22 @@
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>EditClientServlet</servlet-name>
-        <servlet-class>servlet.EditClientPageServlet</servlet-class>
+        <servlet-name>DepositPageServlet</servlet-name>
+        <servlet-class>servlet.DepositPageServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>EditClientServlet</servlet-name>
-        <url-pattern>/clients/edit/*</url-pattern>
+        <servlet-name>DepositPageServlet</servlet-name>
+        <url-pattern>/deposit/*</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>AllDepositsPageServlet</servlet-name>
+        <servlet-class>servlet.AllDepositsPageServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AllDepositsPageServlet</servlet-name>
+        <url-pattern>/deposits</url-pattern>
+    </servlet-mapping>
 </web-app>

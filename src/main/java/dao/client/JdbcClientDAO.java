@@ -1,15 +1,17 @@
-package dao;
+package dao.client;
 
 
+import dao.Config;
+import dao.Const;
+import dao.client.ClientDAO;
 import model.Client;
 
 import java.sql.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Properties;
 
-public class JdbcClientDAO extends Config implements ClientDAO{
+public class JdbcClientDAO extends Config implements ClientDAO {
     private Connection dbConnection;
 
     public Connection getDbConnection() throws ClassNotFoundException, SQLException {
@@ -19,6 +21,7 @@ public class JdbcClientDAO extends Config implements ClientDAO{
         dbConnection = DriverManager.getConnection(ConnectionString, dbUser, dbPass);
 
         return dbConnection;
+
     }
 
     public void saveClient(Client client) {
