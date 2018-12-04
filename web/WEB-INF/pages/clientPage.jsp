@@ -10,7 +10,10 @@
 </head>
 <body>
 <a href="/clients">Вернуться к списку всех клиентов</a>
+<br>
 <a href="/deposit/${client.id}">Заключить депозитный договор</a>
+<br>
+<a href="/credit/${client.id}">Заключить кредитный договор</a>
 <c:if test="${not empty param.successUpdate}">
     Обновление прошло успешно
 </c:if>

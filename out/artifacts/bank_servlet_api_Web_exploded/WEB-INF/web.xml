@@ -57,4 +57,24 @@
         <servlet-name>AllDepositsPageServlet</servlet-name>
         <url-pattern>/deposits</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CreditPageServlet</servlet-name>
+        <servlet-class>servlet.CreditPageServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CreditPageServlet</servlet-name>
+        <url-pattern>/credit/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AllCreditsPageServlet</servlet-name>
+        <servlet-class>servlet.AllCreditsPageServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AllCreditsPageServlet</servlet-name>
+        <url-pattern>/credits</url-pattern>
+    </servlet-mapping>
 </web-app>

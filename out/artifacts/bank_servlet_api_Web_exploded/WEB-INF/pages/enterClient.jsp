@@ -18,6 +18,8 @@
 <a href="${pageContext.servletContext.contextPath}/clients">Просмотр базы клиентов</a>
     <br>
     <a href="/deposits">Просмотр всех депозитов</a>
+    <br>
+    <a href="/credits">Просмотр всех кредитов</a>
     <span>
         <c:if test="${param.suchClientExist != null}">
             Такой пользователь уже есть в БД!!!
