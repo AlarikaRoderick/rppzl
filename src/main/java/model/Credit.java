@@ -14,6 +14,10 @@ public class Credit {
     private int creditSum;
     private int creditPercent;
     private int currentPercent;
+    public static int fondSum = 100000000;
+
+    public Credit() {
+    }
 
     public Credit(int idClientCredit, String creditType, int contractNumber, String currencyType,
                   Date dateBegin, Date dateEnd, int contractTerm, int creditSum, int creditPercent,
@@ -28,6 +32,14 @@ public class Credit {
         this.creditSum = creditSum;
         this.creditPercent = creditPercent;
         this.currentPercent = currentPercent;
+    }
+
+    public int getFondSum() {
+        return fondSum;
+    }
+
+    public void setFondSum(int fondSum) {
+        Credit.fondSum = fondSum;
     }
 
     public int getIdCredit() {

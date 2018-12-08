@@ -1,3 +1,4 @@
+<jsp:useBean id="deposit" scope="request" class="model.Deposit"/>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
@@ -53,6 +54,7 @@
         </table>
         <button type="submit" name="closeBankDay">Завершить банковский день</button>
     </form>
+    <input type="number" name="fond" value="${deposit.fondSum}" disabled>
 
 </div>
 тут будут депозиты

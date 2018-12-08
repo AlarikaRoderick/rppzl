@@ -70,8 +70,9 @@ public class JdbcDepositDAO extends Config implements DepositDAO{
     public void closeDeposit(Deposit deposit) {
         int depositSum = deposit.getDepositSum();
         int currentPercent = deposit.getCurrentPercent();
-        float totalSum = depositSum + depositSum*currentPercent/100;
+        int totalSum = depositSum + depositSum*currentPercent/100;
         System.out.println(totalSum);
+        Deposit.fondSum = deposit.getFondSum()-totalSum;
         deleteDeposit(deposit);
     }
 

@@ -1,3 +1,4 @@
+<jsp:useBean id="credit" scope="request" class="model.Credit"/>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
@@ -51,8 +52,9 @@
             </c:forEach>
             </tbody>
         </table>
-        <button type="submit" name="closeBankDay">Завершить банковский день</button>
+        <button type="submit" name="closeBankDay1">Завершить банковский день</button>
     </form>
+    <input type="number" name="fond" value="${credit.fondSum}" disabled>
 
 </div>
 тут будут кредиты

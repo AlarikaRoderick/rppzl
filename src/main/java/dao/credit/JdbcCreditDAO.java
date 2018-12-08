@@ -70,8 +70,9 @@ public class JdbcCreditDAO extends Config implements CreditDAO {
     public void closeCredit(Credit credit) {
         int creditSum = credit.getCreditSum();
         int currentPercent = credit.getCurrentPercent();
-        float totalSum = creditSum + creditSum*currentPercent/100;
+        int totalSum = creditSum - creditSum*currentPercent/100;
         System.out.println(totalSum);
+        Credit.fondSum = credit.getFondSum()-totalSum;
         deleteCredit(credit);
     }
 

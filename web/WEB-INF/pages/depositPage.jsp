@@ -14,8 +14,8 @@
     <div class="form-group">
         <label for="deposit-type">Вид депозита</label>
         <select class="form-control" id="deposit-type" name="depositType">
-            <option value="Отзывной">Отзывной</option>
-            <option value="Безотзывной">Безотзывной</option>
+            <option value="otz">Отзывной</option>
+            <option value="bezotz">Безотзывной</option>
         </select>
     </div>
 

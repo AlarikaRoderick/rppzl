@@ -14,6 +14,10 @@ public class Deposit {
     private int depositSum;
     private int depositPercent;
     private int currentPercent;
+    public static int fondSum = 100000000;
+
+    public Deposit() {
+    }
 
     public Deposit(int idClientDeposit, String depositType, int contactNumber,
                    String currencyType, Date dateBegin, Date dateEnd, int contractTerm,
@@ -28,6 +32,14 @@ public class Deposit {
         this.depositSum = depositSum;
         this.depositPercent = depositPercent;
         this.currentPercent = currentPercent;
+    }
+
+    public int getFondSum() {
+        return fondSum;
+    }
+
+    public void setFondSum(int fondSum) {
+        this.fondSum = fondSum;
     }
 
     public int getIdDeposit() {
